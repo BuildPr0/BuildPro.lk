@@ -8,7 +8,7 @@ const products = [
     name: "Intel Core i5-13600K",
     category: "CPU",
     price: 53500,
-    image: "images/products/cpu-01.jpg",
+    image: "images/products/Intel Core i5-13600K.png",
     description: "13th Gen Intel Core i5 processor with 14 cores and 20 threads. Excellent for gaming and productivity tasks.",
     specs: [
       { label: "Cores", value: "14 (6P + 8E)" },
@@ -24,7 +24,7 @@ const products = [
     name: "AMD Ryzen 7 7800X3D",
     category: "CPU",
     price: 72500,
-    image: "images/products/cpu-02.jpg",
+    image: "images/products/AMD Ryzen 7 7800X3D.png",
     description: "AMD's flagship gaming processor with 3D V-Cache technology. Delivers exceptional gaming performance.",
     specs: [
       { label: "Cores", value: "8" },
@@ -42,7 +42,7 @@ const products = [
     name: "NVIDIA GeForce RTX 4060",
     category: "GPU",
     price: 98500,
-    image: "images/products/gpu-01.jpg",
+    image: "images/products/NVIDIA GeForce RTX 4060.png",
     description: "NVIDIA RTX 4060 graphics card with Ada Lovelace architecture. Perfect for 1080p and 1440p gaming.",
     specs: [
       { label: "VRAM", value: "8GB GDDR6" },
@@ -57,7 +57,7 @@ const products = [
     name: "AMD Radeon RX 7800 XT",
     category: "GPU",
     price: 142000,
-    image: "images/products/gpu-02.jpg",
+    image: "images/products/AMD Radeon RX 7800 XT.png",
     description: "AMD Radeon RX 7800 XT graphics card for high-performance 1440p gaming and content creation.",
     specs: [
       { label: "VRAM", value: "16GB GDDR6" },
@@ -74,7 +74,7 @@ const products = [
     name: "Corsair Vengeance 32GB DDR5",
     category: "RAM",
     price: 28500,
-    image: "images/products/ram-01.jpg",
+    image: "images/products/corsair-vengeance-32gb-ddr5.png",
     description: "High-performance DDR5 RAM kit for gaming and intensive multitasking. 32GB (2x16GB) kit.",
     specs: [
       { label: "Capacity", value: "32GB (2x16GB)" },
@@ -89,7 +89,7 @@ const products = [
     name: "G.Skill Trident Z5 64GB DDR5",
     category: "RAM",
     price: 52000,
-    image: "images/products/ram-02.jpg",
+    image: "images/products/G.Skill Trident Z5 64GB DDR5.png",
     description: "Premium DDR5 RAM kit for enthusiasts and professionals. 64GB (2x32GB) high-speed kit.",
     specs: [
       { label: "Capacity", value: "64GB (2x32GB)" },
@@ -106,7 +106,7 @@ const products = [
     name: "Samsung 990 Pro 1TB NVMe",
     category: "SSD",
     price: 32500,
-    image: "images/products/ssd-01.jpg",
+    image: "images/products/Samsung 990 Pro 1TB NVMe.png",
     description: "Samsung's flagship NVMe SSD with blazing fast read/write speeds. PCIe 4.0 interface.",
     specs: [
       { label: "Capacity", value: "1TB" },
@@ -121,7 +121,7 @@ const products = [
     name: "WD Black SN850X 2TB",
     category: "SSD",
     price: 58000,
-    image: "images/products/ssd-02.jpg",
+    image: "images/products/WD Black SN850X 2TB.png",
     description: "High-capacity NVMe SSD for gamers and creators. Exceptional performance for demanding workloads.",
     specs: [
       { label: "Capacity", value: "2TB" },
@@ -138,7 +138,7 @@ const products = [
     name: "ASUS ROG Strix Z790-E",
     category: "Motherboard",
     price: 85000,
-    image: "images/products/motherboard-01.jpg",
+    image: "images/products/ASUS ROG Strix Z790-E.png",
     description: "Premium Z790 motherboard for Intel 13th/14th Gen CPUs. Features DDR5 support and PCIe 5.0.",
     specs: [
       { label: "Socket", value: "LGA 1700" },
@@ -154,7 +154,7 @@ const products = [
     name: "MSI MAG B650 Tomahawk",
     category: "Motherboard",
     price: 55000,
-    image: "images/products/motherboard-02.jpg",
+    image: "images/products/MSI MAG B650 Tomahawk.png",
     description: "Feature-rich B650 motherboard for AMD Ryzen 7000 series. Great value for gaming builds.",
     specs: [
       { label: "Socket", value: "AM5" },
@@ -198,11 +198,11 @@ const products = [
     ]
   },
 
-  // ===== Casings =====
+  // ===== PC Casings =====
   {
     id: 13,
     name: "Corsair 4000D Airflow",
-    category: "Casing",
+    category: "PC Casing",
     price: 28500,
     image: "images/products/casing-01.jpg",
     description: "Mid-tower case with excellent airflow design. Steel construction with tempered glass panel.",
@@ -217,7 +217,7 @@ const products = [
   {
     id: 14,
     name: "Lian Li O11 Dynamic EVO",
-    category: "Casing",
+    category: "PC Casing",
     price: 62000,
     image: "images/products/casing-02.jpg",
     description: "Premium dual-chamber case with outstanding thermal performance and modular design.",
@@ -226,6 +226,36 @@ const products = [
       { label: "Motherboard Support", value: "ATX, mATX, Mini-ITX" },
       { label: "Fan Support", value: "Up to 13 fans" },
       { label: "GPU Clearance", value: "422mm" },
+      { label: "Panel", value: "Tempered Glass" }
+    ]
+  },
+  {
+    id: 19,
+    name: "Q14 Gaming PC Casing",
+    category: "PC Casing",
+    price: 5300,
+    image: "images/products/q14 casing.png",
+    description: "Budget gaming PC casing with stylish front design, strong black body, and good airflow support.",
+    specs: [
+      { label: "Form Factor", value: "Mid Tower" },
+      { label: "Motherboard Support", value: "ATX, mATX, Mini-ITX" },
+      { label: "Fan Support", value: "Up to 6 fans" },
+      { label: "GPU Clearance", value: "330mm" },
+      { label: "Panel", value: "Steel + Acrylic" }
+    ]
+  },
+  {
+    id: 20,
+    name: "Antec NX410 Elite",
+    category: "PC Casing",
+    price: 18500,
+    image: "images/products/casing-03.jpg",
+    description: "Mid-tower gaming case with RGB fans, mesh front panel, and tempered glass side panel.",
+    specs: [
+      { label: "Form Factor", value: "Mid Tower" },
+      { label: "Motherboard Support", value: "ATX, mATX, Mini-ITX" },
+      { label: "Fan Support", value: "Up to 8 fans" },
+      { label: "GPU Clearance", value: "350mm" },
       { label: "Panel", value: "Tempered Glass" }
     ]
   },
