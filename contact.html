@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact BuildPro.lk - Get in touch with us via phone, WhatsApp, email, or visit our store in Anuradhapura, Sri Lanka.">
+  <title>Contact Us - BuildPro.lk</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header / Navbar -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="BuildPro.lk Logo">
+        </a>
+        <ul class="desktop-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="custom-build.html">Custom Build</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Open Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenu">
+    <div class="mobile-menu-panel">
+      <button class="menu-close" aria-label="Close Menu">&times;</button>
+      <img src="images/logo.png" alt="BuildPro.lk Logo" class="mobile-menu-logo">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="custom-build.html">Custom Build</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <h1>Contact <span>Us</span></h1>
+      <p>We're here to help. Reach out to us anytime.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="contact-page">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info-cards">
+          <div class="contact-card">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <h3>Call Us</h3>
+            <p>Available Mon-Sat 9AM-7PM</p>
+            <a href="tel:+94781020385" class="contact-link">+94 78 102 0385</a>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+            <h3>WhatsApp</h3>
+            <p>Quickest response time</p>
+            <a href="https://wa.me/94781020385" target="_blank" class="contact-link">Chat Now</a>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <h3>Email</h3>
+            <p>We reply within 24 hours</p>
+            <a href="mailto:info@buildpro.lk" class="contact-link">info@buildpro.lk</a>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><i class="fab fa-facebook"></i></div>
+            <h3>Facebook</h3>
+            <p>Follow us for updates</p>
+            <a href="https://facebook.com/buildpro.lk" target="_blank" class="contact-link">/buildpro.lk</a>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Location</h3>
+            <p>Anuradhapura, Sri Lanka</p>
+            <span class="contact-link">Visit by appointment</span>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><i class="fas fa-clock"></i></div>
+            <h3>Business Hours</h3>
+            <p>Monday - Saturday</p>
+            <span class="contact-link">9:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <h2>Send Us a <span>Message</span></h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Your Name <span>*</span></label>
+                <input type="text" id="contactName" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email <span>*</span></label>
+                <input type="email" id="contactEmail" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactPhone">Phone Number</label>
+              <input type="tel" id="contactPhone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject <span>*</span></label>
+              <input type="text" id="contactSubject" placeholder="What is this regarding?" required>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message <span>*</span></label>
+              <textarea id="contactMessage" placeholder="Tell us how we can help you..." required></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+            <p style="text-align: center; color: var(--text-gray); font-size: 0.8rem; margin-top: 15px;">
+              For faster response, please reach out to us via WhatsApp.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="BuildPro.lk Logo">
+            <span>Build<span>Pro</span>.lk</span>
+          </div>
+          <p>BuildPro.lk is Sri Lanka's trusted destination for premium computer parts, gaming PCs, and custom PC builds.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61591155455768" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/94781020385" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="products.html"><i class="fas fa-chevron-right"></i> Products</a></li>
+            <li><a href="custom-build.html"><i class="fas fa-chevron-right"></i> Custom Build</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            <li><a href="privacy.html"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=CPU"><i class="fas fa-chevron-right"></i> CPUs</a></li>
+            <li><a href="products.html?category=GPU"><i class="fas fa-chevron-right"></i> GPUs</a></li>
+            <li><a href="products.html?category=RAM"><i class="fas fa-chevron-right"></i> RAM</a></li>
+            <li><a href="products.html?category=SSD"><i class="fas fa-chevron-right"></i> SSDs</a></li>
+            <li><a href="products.html?category=Motherboard"><i class="fas fa-chevron-right"></i> Motherboards</a></li>
+            <li><a href="products.html?category=Power%20Supply"><i class="fas fa-chevron-right"></i> Power Supplies</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> <a href="tel:+94781020385">+94 78 102 0385</a></li>
+            <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/94781020385">WhatsApp</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@buildpro.lk">info@buildpro.lk</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Anuradhapura, Sri Lanka</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <a href="index.html">BuildPro.lk</a>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- WhatsApp Float Button -->
+  <a href="#" class="whatsapp-float whatsapp-contact" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
